@@ -12,12 +12,12 @@ public class Conta {
         this.nomeCliente = nomeCliente;
         this.saldo = saldo;
 
-        System.out.printf("Olá %s, obrigado por criar uma conta em nosso JAVA Bank sua agência é %s, conta %d e seu saldo %.2f já está disponível para saque\n",this.nomeCliente,this.agencia,this.numero,this.saldo);
+        System.out.printf("Olá %s, obrigado por criar uma conta em nosso JAVA Bank sua agência é %s, conta %d e seu saldo R$%.2f já está disponível para saque\n",this.nomeCliente,this.agencia,this.numero,this.saldo);
     }
 
     public void exibir() {
         System.out.println("---------------------------------------");
-        System.out.printf("Numero da Conta: %d \nAgencia: %s \nCliente: %s \nSaldo: %.2f\n",this.numero,this.agencia,this.nomeCliente,this.saldo);
+        System.out.printf("Numero da Conta: %d \nAgencia: %s \nCliente: %s \nSaldo: R$%.2f\n",this.numero,this.agencia,this.nomeCliente,this.saldo);
         
         System.out.println("---------------------------------------");
     }
